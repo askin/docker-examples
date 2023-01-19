@@ -1,0 +1,7 @@
+version: '2'
+services:
+  expose-test:
+    build: .
+    image: askinozgur/publish-port-with-expose
+    # ports:
+    #   - 8123:8123
